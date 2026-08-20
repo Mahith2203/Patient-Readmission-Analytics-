@@ -1,0 +1,16 @@
+test,statistic,p_value,n
+chi2: race vs readmit_30,18.3537,0.0025343271549180093,69990
+chi2: gender vs readmit_30,0.6012,0.7403783014065545,69990
+chi2: admission_type vs readmit_30,13.3092,0.03837990737665832,65474
+chi2: change vs readmit_30,14.6689,0.00012814125246606768,69990
+chi2: diabetesMed vs readmit_30,53.5666,2.499778595990516e-13,69990
+chi2: A1Cresult vs readmit_30,0.9173,0.6321271736840429,12846
+chi2: max_glu_serum vs readmit_30,0.8595,0.6506742280906526,3349
+welch t-test: time_in_hospital,14.2312,2.2943881386675445e-45,69990
+welch t-test: num_medications,9.5422,1.846554622630046e-21,69990
+welch t-test: num_lab_procedures,8.7006,3.995515536264933e-18,69990
+welch t-test: number_inpatient,16.7781,6.469155910839075e-62,69990
+welch t-test: number_emergency,6.5954,4.538066742261903e-11,69990
+welch t-test: number_diagnoses,12.969,4.5161360997003583e-38,69990
+ANOVA: time_in_hospital by admission_type,57.6685,1.1535662110587179e-48,69990
+ANOVA: num_medications by age group,208.1785,0.0,69990

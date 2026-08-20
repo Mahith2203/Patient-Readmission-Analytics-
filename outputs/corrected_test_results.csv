@@ -1,0 +1,16 @@
+test,statistic,p_value,n,p_bonferroni,sig_bonferroni_0.05,p_fdr_bh,sig_fdr_0.05,effect_size,effect_type,interpretation
+chi2: race vs readmit_30,18.3537,0.002534327154918,69990,0.038014907323770004,True,0.0034559006657972732,True,0.0162,Cramers_V,negligible
+chi2: gender vs readmit_30,0.6012,0.7403783014065545,69990,1.0,False,0.7403783014065545,False,0.0029,Cramers_V,negligible
+chi2: admission_type vs readmit_30,13.3092,0.0383799073766583,65474,0.5756986106498745,False,0.04797488422082287,True,0.0143,Cramers_V,negligible
+chi2: change vs readmit_30,14.6689,0.000128141252466,69990,0.00192211878699,True,0.000192211878699,True,0.0145,Cramers_V,negligible
+chi2: diabetesMed vs readmit_30,53.5666,2.4997785959905163e-13,69990,3.749667893985775e-12,True,4.687084867482218e-13,True,0.0277,Cramers_V,negligible
+chi2: A1Cresult vs readmit_30,0.9173,0.6321271736840429,12846,1.0,False,0.6971509586685563,False,0.0085,Cramers_V,negligible
+chi2: max_glu_serum vs readmit_30,0.8595,0.6506742280906526,3349,1.0,False,0.6971509586685563,False,0.016,Cramers_V,negligible
+welch t-test: time_in_hospital,14.2312,2.2943881386675445e-45,69990,3.441582208001317e-44,True,8.603955520003292e-45,True,0.1956,Cohens_d,negligible
+welch t-test: num_medications,9.5422,1.846554622630046e-21,69990,2.769831933945069e-20,True,4.616386556575114e-21,True,0.1267,Cohens_d,negligible
+welch t-test: num_lab_procedures,8.7006,3.995515536264933e-18,69990,5.9932733043974e-17,True,8.561819006281998e-18,True,0.1122,Cohens_d,negligible
+welch t-test: number_inpatient,16.7781,6.469155910839075e-62,69990,9.703733866258612e-61,True,4.8518669331293066e-61,True,0.3525,Cohens_d,small
+welch t-test: number_emergency,6.5954,4.538066742261903e-11,69990,6.807100113392854e-10,True,7.563444570436505e-11,True,0.0981,Cohens_d,negligible
+welch t-test: number_diagnoses,12.969,4.516136099700358e-38,69990,6.774204149550537e-37,True,1.3548408299101073e-37,True,0.1597,Cohens_d,negligible
+ANOVA: time_in_hospital by admission_type,57.6685,1.153566211058718e-48,69990,1.730349316588077e-47,True,5.76783105529359e-48,True,,,
+ANOVA: num_medications by age group,208.1785,0.0,69990,0.0,True,0.0,True,,,
